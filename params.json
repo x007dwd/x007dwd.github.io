@@ -1,0 +1,6 @@
+{
+  "name": "Bobin blog",
+  "tagline": "何必浓墨重彩",
+  "body": "#bobin Blog\r\n\r\n###[View bobin Blog ](http://x007dwd.github.io)\r\n\r\n###Brief Intro\r\n\r\nI'm a liittle bit fresh to do this.\r\n\r\nI will post something about UAV(Unmaned aerial vehicle) and SLAM(Simultaneous localization and mapping).\r\n\r\nThanks!\r\n\r\n## Thanks to\r\n\r\nThis theme is forked from [Orchid Blog](https://github.com/zyddora/zyddora.github.io)  \r\n\r\nYou can clone this blog plate by following command:\r\n\r\n```\r\n$ git clone git@github.com:zyddora/zyddora.github.io.git\r\n```\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
