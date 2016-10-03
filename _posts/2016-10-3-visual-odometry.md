@@ -1,3 +1,13 @@
+---
+layout:     post
+title:      "SLAM"
+subtitle:   " \"Visual Odometry。\""
+date:       2016-10-3 21:08:39
+author:     "Bobin"
+header-img: "img/bg-home-bg.jpg"
+tags:
+    - SLAM
+---
 
 无人机很快会在灾难救援，工业检测环境保护方面祈祷重要作用。这样的应用中获取GPS信息是困难的。因此精确的全自动UAV备选的定位系统。为了减低重量和功率消耗，视觉系统协同IMU（Inertial Measurement Unit）的方案被广泛采用。
 本文主要关于VO里程计简介。
