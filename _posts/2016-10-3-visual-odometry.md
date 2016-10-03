@@ -4,7 +4,7 @@ title:      "SLAM"
 subtitle:   " \"Visual Odometry。\""
 date:       2016-10-3 21:08:39
 author:     "Bobin"
-header-img: "img/bg-home-bg.jpg"
+header-img: "img/home-bg.jpg"
 tags:
     - SLAM
 ---
@@ -37,7 +37,7 @@ map |a map of the environment| local map
 previously visited area |loop closure|-
 Optimization | global | local/window
 trade off | consistency |  performance
-![](assets/VO-fc093.png)
+![](inpost/vo/VO-fc093.png)
 ## formulation
 相邻两张图像对应的相机的位置之间的关系为一个刚体变换，如下表示
 $
