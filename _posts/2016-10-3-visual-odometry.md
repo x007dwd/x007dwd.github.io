@@ -50,7 +50,7 @@ $
 1. Compute the relative motion $T_k$ from images $I_{ k−1}$ to image $\_k$
 2. Concatenate them to recover the full trajectory
 3. An optimization over the last m poses can be done to refine locally the trajectory (Pose-Graph or Bundle Adjustment)
-![](assets/VO-21759.png)
+![](inpost/vo/VO-21759.png)
 ### Feature-based Methods
 #### Steps:
 1. Extract feature key-points and descriptors.
@@ -79,8 +79,8 @@ based on some | similarity metrics | correlation etc
 
 Pose-Graph Optimization | BA
 ---|---
-![](assets/VO-549f2.png) | ![](assets/VO-f043d.png)
-![](assets/VO-60a4e.png) | ![](assets/VO-2a817.png)
+![](inpost/vo/VO-549f2.png) | ![](inpost/vo/VO-f043d.png)
+![](inpost/vo/VO-60a4e.png) | ![](inpost/vo/VO-2a817.png)
 only the last m keyframes are used| to not get stuck in local minima, the initialization should be close to the minimum
 Gauss-Newton or Levenberg-Marquadt |Gauss-Newton or Levenberg-Marquadt
 --|more precise
@@ -176,4 +176,4 @@ http://rpg.ifi.uzh.ch/datasets/dalidation.bag
 - F. Fraundorfer and D. Scaramuzza, "Visual Odometry : Part II: Matching, Robustness, Optimization, and Applications," in IEEE Robotics & Automation Magazine, vol. 19, no. 2, pp. 78-90, June 2012.
 doi: 10.1109/MRA.2012.2182810
 
-![](assets/VO-1dfd8.png)
+![](inpost/vo/VO-1dfd8.png)
