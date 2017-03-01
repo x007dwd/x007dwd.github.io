@@ -1,7 +1,7 @@
 # Site settings
 title: Bobin Blog
 SEOTitle: 何必浓墨重彩
-header-img: img/home-bg.jpg
+#header-img: img/home-bg.jpg
 email: x007dwd@gmail.com
 description: " 这里是 @Bobin 的个人博客。"
 keyword: "Bobin, Bobin Blog, 博客, 个人网站, 互联网, UAV, 机器学习, SLAM"
