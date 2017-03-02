@@ -1,3 +1,12 @@
+---
+layout:     post
+title:      "SLAM预备知识"
+subtitle:   " \"好察非明，能察能不察之谓明；必胜非勇，能胜能不胜之谓勇。\""
+date:       2017-2-28 22：19
+author:     "Bobin"
+tags: SLAM
+---
+
 还是说视觉slam吧。
 先说视觉这块，首先射影几何的一些内容相机模型，单视几何，双视几何和多视几何。这些内容可以在http://www.robots.ox.ac.uk/~vgg/hzbook/这本书中找到。英文版的，另外中科院的吴福朝编著的“计算机视觉中的数学方法”也很好，他涵盖了上述了MVG in CV book中的大部分内容，强烈安利。
 
