@@ -5,6 +5,7 @@ subtitle:   " \"好察非明，能察能不察之谓明；必胜非勇，能胜�
 date:       2017-3-2 22：59
 author:     "Bobin"
 tags:
+ - SLAM
 ---
 
 # 视觉slam
