@@ -7,7 +7,7 @@ author:     "Bobin"
 tags: SLAM
 ---
 
-## 视觉slam
+# 视觉slam
 先说视觉这块，首先射影几何的一些内容相机模型，单视几何，双视几何和多视几何。这些内容可以在http://www.robots.ox.ac.uk/~vgg/hzbook/这本书中找到。英文版的，另外中科院的吴福朝编著的“计算机视觉中的数学方法”也很好，他涵盖了上述了MVG in CV book中的大部分内容，强烈安利。
 
 然后是一些视觉特征，这方面就是一些特征，描述子，匹配相关等。见SIFT，ORB、BRISK、SURF等文章。
