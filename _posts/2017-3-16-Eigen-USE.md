@@ -7,7 +7,7 @@ author:     "Bobin"
 tags:
     - Eigen
 ---
-Eigen库显然使用比较多的模板的内容，因此在编译的时候，错误提示比较complicated。有时候一个错误会导致长长的编译错误，排错、debug因此更加困难。
+Eigen库使用比较多的模板的内容，因此在编译的时候，错误提示比较complicated。有时候一个错误会导致长长的编译错误，排错、debug因此更加困难。
 
 ## 注意点
 1. Eigen::Matrix<type, Num, Num>。type表示类型，Num表示矩阵的行和列的大小，Num可以是动态指定的，也可以预先设定好。主要的点是type在进行数据传递的时候，左值和右值的type需要匹配，不然编译报错，即使是float赋值给double，这一点常用的C++中浮点数float、double的处理不太一样。如果两边的type不一下样可以使用cast函数进行转换。

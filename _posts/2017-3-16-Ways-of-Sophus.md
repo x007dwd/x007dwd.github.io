@@ -7,9 +7,9 @@ author:     "Bobin"
 tags:
     - Sophus
 ---
-在看sophus的代码的时候除了弄懂那些traits技巧，在使用Sophus库的时候应该注意各类之间的继承以及相关的接口。
-最用的数据类型是SE3，SE3x(这里包括SE3d、SE3f)来自于SE3Group，所以使用的时候应该注意当前使用到底是那种SE3.
 
+在看sophus的代码的时候除了弄懂那些traits技巧，在使用Sophus库的时候应该注意各类之间的继承以及相关的接口。如下图所示。SE3x(这里包括SE3d、SE3f)实例化于SE3Group。
+![](/img/Ways-of-Sophus.png)
 ## 变换
 1. SE3类型给出了乘以点，也就是通用变换$\mathbf{R}\mathbf{p}+\mathbf{t}$，这种变换使用一个*重载了这个操作。
 
