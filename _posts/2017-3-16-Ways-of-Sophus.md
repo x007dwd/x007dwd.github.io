@@ -18,42 +18,43 @@ tags:
 
 |--|功能|函数|
 |--|---|---|
-|1. | 四元数|setQuaternion()|
-|2. | 旋转矩阵 | setRotationMatrix()|
-|3. | 仿射矩阵 | setAffine()|
+|1 | 四元数|setQuaternion()|
+|2 | 旋转矩阵 | setRotationMatrix()|
+|3 | 仿射矩阵 | setAffine()|
+
 ## 矩阵操作
 
 |--|功能|函数|
 |--|---|---|
-|1. | adjoint Transform | Adj()|
-|2. | inverse | inverse()|
-|3. | to lie algebra | so3()|
-|4. | log map | log()|
-|5. | exp map | exp()|
-|6. |归一化so3元素|normalize()|
-|7. |hat|hat()|
-|8. |李括号|lieBranket()|
-9.
+|1 | adjoint Transform | Adj()|
+|2 | inverse | inverse()|
+|3 | to lie algebra | so3()|
+|4 | log map | log()|
+|5 | exp map | exp()|
+|6 |归一化so3元素|normalize()|
+|7 |hat|hat()|
+|8 |李括号|lieBranket()|
+
 
 ## 输出
 
 |--|功能|函数|
 |--|---|---|
-|1. |仿射矩阵| affine3()|
-|2. |对应4x4矩阵| matrix()|
-|3. |对应3x4矩阵|matrix3x4()|
-|3. |对应旋转|rotationMatrix()|
-|4. |对应平移|translation()|
-|5. |四元数|unit_quaternion()|
-6.
+|1 |仿射矩阵| affine3()|
+|2 |对应4x4矩阵| matrix()|
+|3 |对应3x4矩阵|matrix3x4()|
+|3 |对应旋转|rotationMatrix()|
+|4 |对应平移|translation()|
+|5 |四元数|unit_quaternion()|
+
 
 ## 被重载操作
 
 |--|功能|符号|
 |--|---|---|
-|1. | 点坐标系变换 | *|
-|2. | 赋值 | =|
-|3. | 坐标系composition | *|
+|1 | 点坐标系变换 | *|
+|2 | 赋值 | =|
+|3 | 坐标系composition | *|
 
 # SE3Group
 
