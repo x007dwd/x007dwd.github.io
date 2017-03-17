@@ -11,7 +11,9 @@ tags:
 在看sophus的代码的时候除了弄懂那些traits技巧，在使用Sophus库的时候应该注意各类之间的继承以及相关的接口。如下图所示。SE3x(这里包括SE3d、SE3f)实例化于SE3Group。
 ![](/img/Ways-of-Sophus.png)
 ## 变换
-1. SE3类型给出了乘以点，也就是通用变换$\mathbf{R}\mathbf{p}+\mathbf{t}$，这种变换使用一个*重载了这个操作。
+SE3可以是将点转换到其他坐标系，也可以是变换的组合。两种运算都用乘号重载。
+SE3类型给出了乘以点，也就是通用变换$\mathbf{R}\mathbf{p}+\mathbf{t}$，这种变换使用一个*重载了这个操作。
+
 
 # SE3GroupBase
 ## 输入
