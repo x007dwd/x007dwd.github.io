@@ -40,6 +40,7 @@ SSE使用的头文件是xmmintrin.h
 SSE的指令特点是前边使用_mm_xx_xx()，而ARM我们要使用纯汇编来完成，办法使用类汇编的C来搞。
 
 ## 指令对比
+
 |SSE | NEON |功能|
 |----|---|---|
 |_mm_set1_ps||Create a vector with all four elements equal to F
