@@ -25,3 +25,6 @@ ROS包还是以往的特点，体积小，针对性强。这个SDK的特点就�
 |velocity_pub | geometry_msgs::Vector3Stamped | /guidance/velocity |
 |obstacle_distance_pub  | sensor_msgs::LaserScan | guidance/obstacle_distance|
 |ultrasonic_pub | sensor_msgs::LaserScan | /guidance/ultrasonic |
+
+## 注意
+1. usb和can口似乎不能同时使用，也就是当usb用来跟上位机进行通信的时候，不能提供给飞控数据完成增稳模式。
